@@ -6,7 +6,7 @@
 /*   By: mbeeler <mbeeler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 14:45:26 by manuelbeele       #+#    #+#             */
-/*   Updated: 2022/01/10 09:31:00 by mbeeler          ###   ########.fr       */
+/*   Updated: 2022/01/10 10:54:49 by mbeeler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -132,7 +132,7 @@ int main(int argc, char **argv)
 		close(fd11);
 		close(fd12);
 		close(fd13);
-/*
+
 		fd = open(argv[3], O_RDONLY);
 		fd2 = open(argv[6], O_RDONLY);
 		get_next_line(fd, &line);
@@ -141,7 +141,6 @@ int main(int argc, char **argv)
 		test(line, result[nbr], &nbr);
 		get_next_line(fd, &line);
 		test(line, result[nbr], &nbr);
-*/
 	}
 	return (0);
 }
