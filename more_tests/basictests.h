@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   middletests.h                                      :+:      :+:    :+:   */
+/*   basictests.h                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jylimaul <jylimaul@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: mbeeler <mbeeler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/08 13:36:16 by jylimaul          #+#    #+#             */
-/*   Updated: 2021/12/08 13:36:18 by jylimaul         ###   ########.fr       */
+/*   Created: 2021/12/08 13:35:40 by jylimaul          #+#    #+#             */
+/*   Updated: 2022/01/10 09:43:22 by mbeeler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MIDDLETESTS_H
-# define MIDDLETESTS_H
+#ifndef BASICTESTS_H
+# define BASICTESTS_H
 
 # include <unistd.h>
 # include "libft.h"
@@ -20,8 +20,6 @@
 # include <sys/types.h>
 # include <sys/uio.h>
 # include <stdio.h>
-
 # undef BUFF_SIZE
-# define BUFF_SIZE 16
-
+# define BUFF_SIZE 4
 #endif

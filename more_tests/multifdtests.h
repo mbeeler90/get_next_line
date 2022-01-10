@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   multifdtests.h                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: manuelbeeler <manuelbeeler@student.42.f    +#+  +:+       +#+        */
+/*   By: mbeeler <mbeeler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/08 13:36:24 by jylimaul          #+#    #+#             */
-/*   Updated: 2021/12/17 20:06:41 by manuelbeele      ###   ########.fr       */
+/*   Updated: 2022/01/10 09:59:34 by mbeeler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,9 @@
 # include <stdio.h>
 
 # undef BUFF_SIZE
-// # define BUFF_SIZE 1
+//# define BUFF_SIZE 1
 // # define BUFF_SIZE 32
 // # define BUFF_SIZE 9999
-// # define BUFF_SIZE 10000000
+ # define BUFF_SIZE 10000000
 
 #endif

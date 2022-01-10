@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: manuelbeeler <manuelbeeler@student.42.f    +#+  +:+       +#+        */
+/*   By: mbeeler <mbeeler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 14:45:26 by manuelbeele       #+#    #+#             */
-/*   Updated: 2021/12/15 13:12:34 by manuelbeele      ###   ########.fr       */
+/*   Updated: 2022/01/10 09:31:00 by mbeeler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <fcntl.h>
 #include <stdio.h>
-#include "../gnl/get_next_line.h"
-#include "../gnl/libft/includes/libft.h"
+#include "../get_next_line.h"
+#include "../libft/includes/libft.h"
 
 void test(char *line, char *str, int *testnbr)
 {
